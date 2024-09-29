@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+     <div class="logo"><a href="logo">My logo</a></div>
+     <ul>
+         <li><a href="#home">home</a></li>
+         <li><a href="#gallery">Gallery</a></li>
+         <li><a href="#aboutus">About us</a></li>
+         <li><a href="#contact">Contact</a></li>
+     </ul>
+    </div>
+    </nav>
+    <section id="home" >
+        <div class="container">
+<div class="content">
+<h1>Beautiful <br>places to explore</h1>
+<p>Life is a journey filled with unexpected twists and turns; embrace every moment, for each step shapes your story</p>
+<form action="index.html">
+    <input type="text" id="search" placeholder="search country name">
+    <input type="submit" value="submit">
+</form>
+</div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="gallery">
+             <div class="sub-gallery"><a href="img/curry.jpg"><img src="img/curry.jpg" alt="" height="200" width="200"></a>
+            <div class="description">curry</div>
+        </div>
+             <div class="sub-gallery"><a href="img/download.jpeg"><img src="img/download.jpeg" alt="" height="200" width="200"></a>
+                <div class="description">chameleon</div>
+            </div>
+             <div class="sub-gallery"><a href="img/thali.jpg"><img src="img/thali.jpg" alt="" height="200" width="200"></a>
+                <div class="description">thali</div>
+            </div>
+             <div class="sub-gallery"><a href="img/tree-736885_1280.jpg"><img src="img/tree-736885_1280.jpg" alt="" height="200" width="200"></a>
+                <div class="description">tree</div></div>
+        </div>
+    
+
+    </section>
+    <section id="aboutus" class="aboutus">
+        <p>About Us<br>
+            Welcome to [Your Company Name], where creativity meets innovation. Established with a passion for excellence, we are committed to delivering top-notch solutions that empower businesses and individuals to achieve their goals.
+            
+            Our team of dedicated professionals brings together diverse expertise, ensuring that every project is tailored to meet the unique needs of our clients. We believe in pushing boundaries, embracing new challenges, and continuously evolving to stay ahead in a fast-paced world. At [Your Company Name], your success is our priority. Let's build something extraordinary together.
+        </p>
+      <img src="img/thali.jpg" alt="">
+    </section>
+    <section id="contact">
+        <section id="registration">
+            <h2>Register with Us</h2>
+            <form class="registration-form" action="submit_registration.html" method="POST">
+                <div class="form-field">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+                <div class="form-field">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+                <div class="form-field">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-field">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-field">
+                    <input type="submit" value="Register" class="submit-btn">
+                </div>
+            </form>
+        </section>
+        
+</body>
+</html>
